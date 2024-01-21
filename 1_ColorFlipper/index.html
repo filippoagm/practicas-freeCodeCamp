@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Flipper</title>
+  </head>
+  <body>
+    <section class="main-container">
+      <nav class="navBar">
+        <ul class="items-container">
+          <li data-id="hexa" id="hexa">Hexadecimal</li>
+          <li class="active" data-id="color-name" id="color-name">Color name</li>
+        </ul>
+      </nav>
+      <div class="bgEffect-container">
+        <h1 class="title">Background Changer</h1>
+        <input type="text" id="color-code" class="color-code" placeholder="Type a color name">
+        <button class="btn" id="change-bg-btn">Random color</button>
+      </div>
+      <p id="color-name"></p>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
